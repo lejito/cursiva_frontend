@@ -1,6 +1,7 @@
 {
   "name": "cursiva_frontend",
   "version": "0.0.0",
+  "description": "Cursiva Frontend is an Angular application that works as the client and user interface of the Cursiva: University Academic Manager project.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,6 +9,23 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lejito/cursiva_frontend.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "nodejs",
+    "angular",
+    "tailwindcss"
+  ],
+  "author": "Lejito (Alejandro Córdoba Ríos)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lejito/cursiva_frontend/issues"
+  },
+  "homepage": "https://github.com/lejito/cursiva_frontend#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.1.0",
@@ -35,5 +53,8 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.7.2"
   },
-  "packageManager": "pnpm@10.5.0+sha512.11106a5916c7406fe4b8cb8e3067974b8728f47308a4f5ac5e850304afa6f57e2847d7950dfe78877d8d36bfb401d381c4215db3a4c3547ffa63c14333a6fa51"
+  "packageManager": "pnpm@10.5.0+sha512.11106a5916c7406fe4b8cb8e3067974b8728f47308a4f5ac5e850304afa6f57e2847d7950dfe78877d8d36bfb401d381c4215db3a4c3547ffa63c14333a6fa51",
+  "engines": {
+    "node": ">=22.14.0"
+  }
 }
